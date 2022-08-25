@@ -1,0 +1,18 @@
+{
+  "name": "youtube-comment-download",
+  "version": "1.0.0",
+  "private": true,
+  "scripts": {
+    "server-dev": "set NODE_ENV=development && node ./server/index.js",
+    "server": "node ./server/index.js"
+  },
+  "dependencies": {
+    "@babel/preset-env": "7.12.17",
+    "babel-plugin-component": "1.1.1",
+    "body-parser": "1.18.3",
+    "express": "^4.18.1",
+    "googleapis": "^95.0.0",
+    "https-proxy-agent": "^5.0.0"
+  },
+  "devDependencies": {}
+}
